@@ -1,4 +1,4 @@
-export default function({id, name, setRefresh}) {
+export default function Todo({id, name, setRefresh}) {
 
     function deleteTodo(id) {
         fetch(`http://localhost:8080/api/todos/${id}`, {

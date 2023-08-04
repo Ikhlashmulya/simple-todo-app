@@ -1,7 +1,7 @@
 import React from 'react';
 import Todo from "./Todo";
 
-export default function({isRefresh, setRefresh}) {
+export default function TodoList({isRefresh, setRefresh}) {
 
     const [todos, setTodos] = React.useState([])
     const [loading, setLoading] = React.useState(true)

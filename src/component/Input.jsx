@@ -1,6 +1,6 @@
 import React from "react"
 
-export default function({setRefresh}) {
+export default function Input({setRefresh}) {
 
     const [name, setName] = React.useState("")
 

@@ -4,10 +4,10 @@ import Header from './component/Header'
 import Input from './component/Input'
 import TodoList from './component/TodoList'
 
-export default function() {
+export default function App() {
 
     const [isRefresh, setIsRefresh] = React.useState(true)
-    
+
     return (
         <div>
             <Header />
